@@ -1,5 +1,5 @@
 <div align="center"> 
-  <img width="200" alt="sanity" src="./public/docs/project-logo.png">
+  <img width="200" alt="sanity" src="https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/43e5c282-8935-4fc3-ac63-579c31dbae32">
   <h1>Sanity.io + NextJS Portfolio Site</h1>
   <p>A portfolio template built with React, TypeScript and Sanity.io</p>
 </div>
@@ -19,9 +19,9 @@ You can use this starter to kick-start a personal website or learn these technol
 
 ## Project Overview
 
-| [Personal Website](https://nextjs-personal-website.sanity.build) | [Studio](https://nextjs-personal-website.sanity.build/studio) |
-| ---------------------------------------------------------------- | ------------------------------------------------------------- |
-| ![Personal Website][site-preview]                                | ![Sanity Studio][studio-preview]                              |
+| [Personal Website][site]             | [Studio][studio]                 |
+| ------------------------------------ | -------------------------------- |
+| ![Personal Website][site-preview]    | ![Sanity Studio][studio-preview] |
 
 ## Configuration
 
@@ -52,9 +52,10 @@ Visit [http://localhost:3000/studio][localhost-3000-studio] to edit content
 - [Sanity + NextJS Blog Template][other-templates]
 
 <!-- LINK VARIABLES -->
-
-[site-preview]: ./public/docs/website.png
-[studio-preview]: ./public/docs/studio.png
+[site]: https://sanity-nextjs-site.vercel.app
+[studio]: https://sanity-nextjs-site.vercel.app/studio
+[site-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/474e7671-3d7f-4bb8-9304-e1f809473664
+[studio-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/b28682a7-fa3d-4ed6-ae42-4ca0988efdf6
 [nextjs]: https://github.com/vercel/next.js
 [sanity-homepage]: https://www.sanity.io
 [sanity-groq]: https://www.sanity.io/docs/groq?utm_source=github.com&utm_medium=referral&utm_campaign=nextjs-v3vercelstarter
