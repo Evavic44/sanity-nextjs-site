@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center"> 
+  <img width="200" alt="sanity" src="./public/docs/project-logo.png">
+  <h1>Sanity.io + NextJS Portfolio Site</h1>
+  <p>A portfolio template built with React, TypeScript and Sanity.io</p>
+</div>
 
-## Getting Started
+This starter is a statically generated personal website that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content.
+It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
 
-First, run the development server:
+The Studio connects to Sanity Content Lake, which gives you hosted content APIs with a flexible query language, on-demand image transformations, powerful patching, and more.
+You can use this starter to kick-start a personal website or learn these technologies.
+
+## Features
+
+- A performant, static personal personal website with editable projects
+- Manage portfolio content through sanity content lake by visiting `yourwebsite.com/admin`
+- Webhook-triggered Conent Update; no need to wait for a rebuild to publish new content
+- Built with cutting-edge technologies: Next.js 13, TypeScript, Tailwind CSS
+
+## Project Overview
+
+| [Personal Website](https://nextjs-personal-website.sanity.build) | [Studio](https://nextjs-personal-website.sanity.build/studio) |
+| ---------------------------------------------------------------- | ------------------------------------------------------------- |
+| ![Personal Website][site-preview]                                | ![Sanity Studio][studio-preview]                              |
+
+## Configuration
+
+### Step 1. Set up the project locally
+
+[Clone the repository][sanity-nextjs-repo] that was created for you on your GitHub account.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/Evavic44/sanity-nexts-site
+
+cd sanity-nextjs-site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Step 2. Run project locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm run dev
+```
 
-## Learn More
+Visit [http://localhost:3000][localhost-3000] to see your site <br />
+Visit [http://localhost:3000/studio][localhost-3000-studio] to edit content
 
-To learn more about Next.js, take a look at the following resources:
+## Next steps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [How to query content?][sanity-groq]
+- [Sanity + NextJS Blog Template][other-templates]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- LINK VARIABLES -->
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[site-preview]: ./public/docs/website.png
+[studio-preview]: ./public/docs/studio.png
+[nextjs]: https://github.com/vercel/next.js
+[sanity-homepage]: https://www.sanity.io
+[sanity-groq]: https://www.sanity.io/docs/groq?utm_source=github.com&utm_medium=referral&utm_campaign=nextjs-v3vercelstarter
+[sanity-nextjs-repo]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+[localhost-3000]: http://localhost:3000
+[localhost-3000-studio]: http://localhost:3000/studio
+[vercel]: https://vercel.com
+[other-templates]: https://github.com/sanity-io/sanity-template-nextjs-appdir-personal-website
