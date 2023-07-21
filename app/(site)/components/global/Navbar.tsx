@@ -28,14 +28,6 @@ export default function Navbar() {
                 Projects
               </Link>
             </li>
-            <li>
-              <Link
-                href="/projects"
-                className="dark:text-white text-zinc-600 hover:text-purple-400 dark:hover:text-purple-400 duration-300"
-              >
-                Blog
-              </Link>
-            </li>
           </ul>
         </nav>
         <Theme />

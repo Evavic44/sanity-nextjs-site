@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { getSingleProject } from "@/sanity/sanity.query";
 import type { ProjectType } from "@/types";
 import { PortableText } from "@portabletext/react";
-import fallBackImage from "@/public/fall-back-cover.png";
+import fallBackImage from "@/public/project.png";
 
 type Props = {
   params: {
@@ -20,10 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${project.name} | Project`,
     description: project.tagline,
     openGraph: {
-      images: [
+      images:
         project.coverImage?.image ||
-          "https://gitlab.com/victoreke/sanity/-/blob/4587d22ee36b4e8cfe85acb997fa01ac3525074a/public/fall-back-cover.png",
-      ],
+        "https://res.cloudinary.com/victoreke/image/upload/v1689892912/docs/project.png",
       title: project.name,
       description: project.tagline,
     },
