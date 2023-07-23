@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sanity Next.js Portfolio Site",
+  metadataBase: new URL("https://sanity-nextjs-site.vercel.app"),
   description: "A personal portfolio site built with Sanity and Next.js",
   openGraph: {
     images:
@@ -21,10 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body
-        className={`${inter.className} dark:bg-zinc-900 bg-white dark:text-white text-zinc-700`}
-      >
+    <html lang="en">
+      <body className={`${inter.className} bg-zinc-900 text-white`}>
         <Navbar />
         {children}
         <Footer />

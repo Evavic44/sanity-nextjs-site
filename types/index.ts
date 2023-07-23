@@ -24,8 +24,8 @@ export type JobType = {
   logo: string;
   url: string;
   description: string;
-  startDate: string;
-  endDate: string;
+  startDate: Date;
+  endDate: Date;
 };
 
 export type ProjectType = {

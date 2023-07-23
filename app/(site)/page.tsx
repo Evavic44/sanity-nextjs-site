@@ -15,7 +15,7 @@ export default async function Home() {
               <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight lg:min-w-[700px] min-w-full">
                 {data.headline}
               </h1>
-              <p className="text-base dark:text-zinc-400 text-zinc-600 leading-relaxed">
+              <p className="text-base text-zinc-400 leading-relaxed">
                 {data.shortBio}
               </p>
               <ul className="flex items-center gap-x-6 my-10">
