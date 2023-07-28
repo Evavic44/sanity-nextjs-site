@@ -1,5 +1,5 @@
 <div align="center"> 
-  <img width="200" alt="sanity" src="https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/43e5c282-8935-4fc3-ac63-579c31dbae32">
+  <img width="200" alt="sanity" src="https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/27a0746c-addc-478b-b052-9b3890371036">
   <h1>Sanity.io + NextJS Portfolio Site</h1>
   <p>A portfolio template built with <a href="https://nextjs.org">Next.js</a>, <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://sanity.io">Sanity.io</a> for content</p>
 </div>
@@ -53,8 +53,8 @@ Visit [http://localhost:3000/studio][localhost-3000-studio] to edit content
 
 [site]: https://sanity-nextjs-site.vercel.app
 [studio]: https://sanity-nextjs-site.vercel.app/studio
-[site-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/474e7671-3d7f-4bb8-9304-e1f809473664
-[studio-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/b28682a7-fa3d-4ed6-ae42-4ca0988efdf6
+[site-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/46229dc5-e925-4608-909a-848163dd491a
+[studio-preview]: https://github.com/Evavic44/sanity-nextjs-site/assets/62628408/53148f15-3b59-4e78-b072-bb0143f8fe81
 [sanity-homepage]: https://www.sanity.io
 [sanity-groq]: https://www.sanity.io/docs/how-queries-work?utm_source=github.com&utm_medium=referral&utm_campaign=nextjs-v3vercelstarter
 [localhost-3000]: http://localhost:3000
