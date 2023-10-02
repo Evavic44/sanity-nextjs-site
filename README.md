@@ -32,7 +32,7 @@ To use this template for your portfolio site, follow the guide: [How to build a 
 ## Run project locally
 
 ```bash
-git clone https://github.com/Evavic44/sanity-nexts-site
+git clone https://github.com/Evavic44/sanity-nextjs-site.git
 
 cd sanity-nextjs-site
 
