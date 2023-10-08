@@ -59,5 +59,5 @@ Visit [http://localhost:3000/studio][localhost-3000-studio] to edit content
 [sanity-groq]: https://www.sanity.io/docs/how-queries-work?utm_source=github.com&utm_medium=referral&utm_campaign=nextjs-v3vercelstarter
 [localhost-3000]: http://localhost:3000
 [localhost-3000-studio]: http://localhost:3000/studio
-[freecodecamp-guide]: freecodecamp.org/news/how-to-build-a-portfolio-site-with-sanity-and-nextjs
+[freecodecamp-guide]: https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-sanity-and-nextjs/
 [other-templates]: https://github.com/sanity-io/sanity-template-nextjs-appdir-personal-website
