@@ -5,7 +5,7 @@ import { schemaTypes } from "./schemas";
 export default defineConfig({
   name: "sanity-nextjs-site",
   title: "Sanity Next.js Site",
-  projectId: "ga8lllhf",
+  projectId: "c8l01he",
   dataset: "production",
   basePath: "/studio",
   plugins: [deskTool()],
