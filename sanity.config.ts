@@ -62,6 +62,13 @@ export default defineConfig({
                   .title("Management")
                   .items([
                     S.listItem()
+              .title("Medarbejdere og stillinger")
+              .icon(icons["menu"])
+              .child(
+                S.list()
+                  .title("Medarbejdere og stillinger")
+                  .items([
+                    S.listItem()
                       .title("Medarbejdere")
                       .icon(icons["users"])
                       .child(
@@ -72,7 +79,21 @@ export default defineConfig({
                       .icon(icons["user"])
                       .child(
                         S.documentTypeList("position").title("Stillinger")
+                      ), 
+                  ])
+              ),
+                /*     S.listItem()
+                      .title("Medarbejdere")
+                      .icon(icons["users"])
+                      .child(
+                        S.documentTypeList("employee").title("Medarbejdere")
                       ),
+                    S.listItem()
+                      .title("Stillinger")
+                      .icon(icons["user"])
+                      .child(
+                        S.documentTypeList("position").title("Stillinger")
+                      ), */
                   ])
               ),
               S.listItem()
@@ -86,8 +107,8 @@ export default defineConfig({
                     .title("Navigation")
                     .icon(icons["menu"])
                     .child(S.document().schemaType("navigation").documentId("navigation")),
-
                   ]),
+                  
               ),
             /*               S.listItem()
               .title("Indhold")
