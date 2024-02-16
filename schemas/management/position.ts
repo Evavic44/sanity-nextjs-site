@@ -5,7 +5,7 @@ export default {
   name: "position",
   title: "position",
   type: "document",
-  icons: icons["user"],
+  icon: icons["user"], // use the specific icon from the icons object
   fields: [
     {
       name: "title",
