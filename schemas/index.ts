@@ -1,5 +1,30 @@
-import job from "./job";
-import profile from "./profile";
-import project from "./project";
+/* Pages */
+import { page } from "@/schemas/page"
+/* Block */
+import { formType } from "./blocks/formType";
+import { heroType } from "./blocks/heroType";
+import { imageGalleryType } from "./blocks/imageGallery";
+import { textWithIllustrationType } from "./blocks/textWithIllustration";
+import { videoType } from "./blocks/videoType";
 
-export const schemaTypes = [profile, job, project];
+
+/* Settings */ //Need new name
+import navigation from "@/schemas/navigation"
+import employee from "@/schemas/management/employee"
+import position from "@/schemas/management/position"
+export const schemaTypes = [
+    /* Pages */
+    page,
+
+    /* Block */
+    formType,
+    heroType,
+    imageGalleryType,
+    textWithIllustrationType,
+    videoType,
+
+    /* Settings */ // need new name
+    navigation,
+    employee,
+    position,
+];
