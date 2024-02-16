@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .se-grid {
+    @apply  
+    grid grid-cols-4 gap-4 px-4 xs:grid-cols-4 xs:gap-4 xs:px-4 sm:grid-cols-8 sm:gap-4 sm:px-13 md:grid-cols-12 md:gap-6 md:px-24 lg:grid-cols-12 lg:gap-6 lg:px-19 xl:grid-cols-24 xl:gap-6 xl:px-36 2xl:grid-cols-24 2xl:gap-6 2xl:px-52;
+  }
+}
